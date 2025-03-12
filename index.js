@@ -4,7 +4,7 @@ function calcularNivel(vitorias, derrotas) {
 
     if (saldoVitorias < 10) {
         nivel = "Ferro";
-    } else if (saldoVitorias >= 11 && saldoVitorias <= 20) {
+    } else if (saldoVitorias >= 10 && saldoVitorias <= 20) {
         nivel = "Bronze";
     } else if (saldoVitorias >= 21 && saldoVitorias <= 50) {
         nivel = "Prata";
